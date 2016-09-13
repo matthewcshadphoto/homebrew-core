@@ -75,19 +75,20 @@ class Bash < Formula
   end
 
   bottle do
+    sha256 "afc8d35182c477f6d7dfdb5c6cb66280f4e365f957458eb0e14b94d84d5f1249" => :sierra
     sha256 "d2b6fc817178545e78be78a4eadf69a9d40b559b5246f4d850de0f69a0f3c79e" => :el_capitan
     sha256 "2cbb5cf87a3da713347934fd1c64ad33a4c4bf293e72bec482ec32ffed73f52e" => :yosemite
     sha256 "d8e78e912e10db0bf717c5958da825e5f01b2c80a80a41cb8cd2dbc14c0a2242" => :mavericks
   end
 
   devel do
-    url "https://ftpmirror.gnu.org/bash/bash-4.4-beta2.tar.gz"
-    mirror "https://mirrors.ocf.berkeley.edu/gnu/bash/bash-4.4-beta2.tar.gz"
-    mirror "https://mirrors.kernel.org/gnu/bash/bash-4.4-beta2.tar.gz"
-    mirror "https://ftp.gnu.org/gnu/bash/bash-4.4-beta2.tar.gz"
-    mirror "https://gnu.cu.be/bash/bash-4.4-beta2.tar.gz"
-    mirror "https://mirror.unicorncloud.org/gnu/bash/bash-4.4-beta2.tar.gz"
-    sha256 "3a8c4aa40f9ba6c311f4f6a637ae290c0148b828617b0a263a416ba923111f51"
+    url "https://ftpmirror.gnu.org/bash/bash-4.4-rc2.tar.gz"
+    mirror "https://mirrors.ocf.berkeley.edu/gnu/bash/bash-4.4-rc2.tar.gz"
+    mirror "https://mirrors.kernel.org/gnu/bash/bash-4.4-rc2.tar.gz"
+    mirror "https://ftp.gnu.org/gnu/bash/bash-4.4-rc2.tar.gz"
+    mirror "https://gnu.cu.be/bash/bash-4.4-rc2.tar.gz"
+    mirror "https://mirror.unicorncloud.org/gnu/bash/bash-4.4-rc2.tar.gz"
+    sha256 "199ec0166d50a765eec74dc258b006b06cf6b59901d7ff40510c82aae37ad994"
   end
 
   depends_on "readline"
